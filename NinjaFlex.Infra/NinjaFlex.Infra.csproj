@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NinjaFlex.Application\NinjaFlex.Application.csproj" />
+    <ProjectReference Include="..\NinjaFlex.Data\NinjaFlex.Data.csproj" />
+    <ProjectReference Include="..\NinjaFlex.Domain\NinjaFlex.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
